@@ -24,7 +24,7 @@ If you want to update the information in the future, open index.html in any text
 
 1. Profile Image: Find the <img src="..."> tag inside the "Hero Section". Currently, it uses a generated avatar. You can replace the URL with a link to your own photo.
 
-2. Social Media Links: Search for fab fa-linkedin or fab fa-github. Change the href="#" to your actual profile URLs (e.g., href="https://linkedin.com/in/ruchita...").
+2. Social Media Links: Search for fab fa-linkedin or fab fa-github. Change the href="#" to your actual profile URLs .
 
 3. Form: The contact form is currently a demo. To make it functional without backend code, you can use a service like Formspree. Just wrap the inputs in a form tag provided by their service.
 
