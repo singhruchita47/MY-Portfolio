@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruchita Singh | Creative Developer</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+   
+</head>
+<body class="bg-dark text-white font-sans overflow-x-hidden">
+
+    <!-- Background Animation -->
+    <div class="blob-bg">
+        <div class="absolute top-0 -left-4 w-72 h-72 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob"></div>
+        <div class="absolute top-0 -right-4 w-72 h-72 bg-cyan-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-2000"></div>
+        <div class="absolute -bottom-8 left-20 w-72 h-72 bg-pink-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-4000"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass border-b-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex-shrink-0 font-bold text-2xl tracking-wider bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
+                    RUCHITA SINGH<span class="text-white">.</span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#home" class="hover:text-primary transition px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                        <a href="#about" class="hover:text-primary transition px-3 py-2 rounded-md text-sm font-medium">About</a>
+                        <a href="#skills" class="hover:text-primary transition px-3 py-2 rounded-md text-sm font-medium">Skills</a>
+                        <a href="#achievements" class="hover:text-primary transition px-3 py-2 rounded-md text-sm font-medium">Achievements</a>
+                        <a href="#contact" class="bg-gradient-to-r from-primary to-secondary hover:opacity-90 px-4 py-2 rounded-full text-sm font-medium transition">Contact Me</a>
+                    </div>
+                </div>
+                <div class="-mr-2 flex md:hidden">
+                    <button id="mobile-menu-btn" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white focus:outline-none">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden glass">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-center">
+                <a href="#home" class="block hover:text-primary px-3 py-2 rounded-md text-base font-medium">Home</a>
+                <a href="#about" class="block hover:text-primary px-3 py-2 rounded-md text-base font-medium">About</a>
+                <a href="#skills" class="block hover:text-primary px-3 py-2 rounded-md text-base font-medium">Skills</a>
+                <a href="#achievements" class="block hover:text-primary px-3 py-2 rounded-md text-base font-medium">Achievements</a>
+                <a href="#contact" class="block text-primary px-3 py-2 rounded-md text-base font-medium">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center relative pt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse md:flex-row items-center">
+            <div class="md:w-1/2 text-center md:text-left mt-8 md:mt-0 reveal active">
+                <div class="inline-block px-3 py-1 mb-4 text-xs font-semibold tracking-wider text-cyan-400 uppercase bg-cyan-900/30 rounded-full border border-cyan-500/30">
+                    B.Tech Student
+                </div>
+                <h1 class="text-4xl md:text-6xl font-bold mb-4 leading-tight">
+                    Hi, I'm <span class="bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">Ruchita Singh</span>
+                </h1>
+                <h2 class="text-xl md:text-2xl text-gray-300 mb-6">
+                    Combining <span class="text-white font-semibold">Code</span> with <span class="text-white font-semibold">Creativity</span>.
+                </h2>
+                <p class="text-gray-400 mb-8 max-w-lg mx-auto md:mx-0">
+                    I design eye-catching interfaces and solve complex problems with Python. When I'm not coding, I'm editing videos or expressing myself through dance.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                    <a href="#contact" class="bg-gradient-to-r from-primary to-secondary text-white px-8 py-3 rounded-full font-semibold hover:shadow-[0_0_20px_rgba(192,38,211,0.5)] transition duration-300">
+                   Contact Me
+                    </a>
+                    <a href="#achievements" class="glass px-8 py-3 rounded-full font-semibold hover:bg-white/10 transition duration-300 flex items-center justify-center gap-2">
+                        View Portfolio <i class="fas fa-arrow-right text-sm"></i>
+                    </a>
+                </div>
+                
+                <div class="mt-10 flex gap-6 justify-center md:justify-start text-gray-400">
+                    <a href="#" class="hover:text-white text-2xl transition transform hover:scale-110"><i class="fab fa-github"></i></a>
+                    <a href="#" class="hover:text-white text-2xl transition transform hover:scale-110"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="hover:text-white text-2xl transition transform hover:scale-110"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="hover:text-white text-2xl transition transform hover:scale-110"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            
+            <div class="md:w-1/2 flex justify-center relative reveal active">
+                <!-- Abstract Image Placeholder using CSS -->
+                <div class="relative w-64 h-64 md:w-80 md:h-80">
+                    <div class="absolute inset-0 bg-gradient-to-tr from-primary to-secondary rounded-full animate-pulse blur-2xl opacity-50"></div>
+                    <div class="relative w-full h-full glass rounded-full flex items-center justify-center border-2 border-white/20 overflow-hidden">
+                        <!-- Replace src with your actual photo URL -->
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkyRVHhIlA6IUyyIXzVWSntlAIVP5f0gTOxhpAViXthYFKz4CqkMADoxeK6pZb1GRsgXM&usqp=CAU" alt="Ruchita Singh" class="w-full h-full object-cover">
+                    </div>
+                    <!-- Floating Icons -->
+                    <div class="absolute -top-4 -right-4 glass p-3 rounded-xl animate-bounce">
+                        <i class="fab fa-python text-yellow-400 text-2xl"></i>
+                    </div>
+                    <div class="absolute bottom-10 -left-8 glass p-3 rounded-xl animate-bounce" style="animation-delay: 1s;">
+                        <i class="fas fa-code text-cyan-400 text-2xl"></i>
+                    </div>
+                     <div class="absolute top-1/2 -right-10 glass p-3 rounded-xl animate-bounce" style="animation-delay: 1.5s;">
+                        <i class="fas fa-video text-pink-400 text-2xl"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 reveal">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">My <span class="text-primary">Skills</span></h2>
+                <div class="h-1 w-20 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full"></div>
+                <p class="mt-4 text-gray-400">A blend of technical logic and artistic expression.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Skill 1 -->
+                <div class="glass glass-card p-6 rounded-2xl transition duration-300 reveal">
+                    <div class="w-12 h-12 bg-yellow-500/20 rounded-lg flex items-center justify-center mb-4 text-yellow-400">
+                        <i class="fab fa-python text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Python Development</h3>
+                    <p class="text-gray-400 text-sm mb-4">Strong foundation in logic building and automation. Certified in Python Programming.</p>
+                    <div class="w-full bg-gray-700 rounded-full h-2">
+                        <div class="bg-yellow-400 h-2 rounded-full" style="width: 85%"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 2 -->
+                <div class="glass glass-card p-6 rounded-2xl transition duration-300 reveal">
+                    <div class="w-12 h-12 bg-cyan-500/20 rounded-lg flex items-center justify-center mb-4 text-cyan-400">
+                        <i class="fas fa-laptop-code text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Web Design</h3>
+                    <p class="text-gray-400 text-sm mb-4">Creating responsive and attractive layouts using HTML, CSS, and JavaScript.</p>
+                    <div class="w-full bg-gray-700 rounded-full h-2">
+                        <div class="bg-cyan-400 h-2 rounded-full" style="width: 90%"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 3 -->
+                <div class="glass glass-card p-6 rounded-2xl transition duration-300 reveal">
+                    <div class="w-12 h-12 bg-pink-500/20 rounded-lg flex items-center justify-center mb-4 text-pink-400">
+                        <i class="fas fa-photo-video text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Video Editing</h3>
+                    <p class="text-gray-400 text-sm mb-4">Crafting engaging visual stories and content with professional editing tools.</p>
+                    <div class="w-full bg-gray-700 rounded-full h-2">
+                        <div class="bg-pink-400 h-2 rounded-full" style="width: 80%"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 4 -->
+                <div class="glass glass-card p-6 rounded-2xl transition duration-300 reveal">
+                    <div class="w-12 h-12 bg-purple-500/20 rounded-lg flex items-center justify-center mb-4 text-purple-400">
+                        <i class="fas fa-music text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Dance</h3>
+                    <p class="text-gray-400 text-sm mb-4">Expressive choreography and performance. Bringing rhythm to life.</p>
+                    <div class="w-full bg-gray-700 rounded-full h-2">
+                        <div class="bg-purple-400 h-2 rounded-full" style="width: 95%"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 5 -->
+                <div class="glass glass-card p-6 rounded-2xl transition duration-300 reveal">
+                    <div class="w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center mb-4 text-green-400">
+                        <i class="fas fa-brain text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Problem Solving</h3>
+                    <p class="text-gray-400 text-sm mb-4">Analytical thinking to break down complex issues into manageable solutions.</p>
+                    <div class="w-full bg-gray-700 rounded-full h-2">
+                        <div class="bg-green-400 h-2 rounded-full" style="width: 88%"></div>
+                    </div>
+                </div>
+                
+                 <!-- Skill 6 -->
+                <div class="glass glass-card p-6 rounded-2xl transition duration-300 reveal">
+                    <div class="w-12 h-12 bg-blue-500/20 rounded-lg flex items-center justify-center mb-4 text-blue-400">
+                        <i class="fas fa-paint-brush text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Frontend Design</h3>
+                    <p class="text-gray-400 text-sm mb-4">Focusing on UI/UX principles to build user-friendly applications.</p>
+                    <div class="w-full bg-gray-700 rounded-full h-2">
+                        <div class="bg-blue-400 h-2 rounded-full" style="width: 85%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="py-20 bg-black/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 reveal">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Achievements & <span class="text-secondary">Certifications</span></h2>
+                <div class="h-1 w-20 bg-gradient-to-r from-secondary to-primary mx-auto rounded-full"></div>
+            </div>
+
+            <div class="flex flex-col md:flex-row gap-8 justify-center items-center">
+                
+                <!-- Hackathon Card -->
+                <div class="glass p-1 rounded-2xl w-full md:w-1/3 reveal">
+                    <div class="bg-dark/80 p-8 rounded-2xl h-full flex flex-col items-center text-center hover:bg-dark/60 transition">
+                        <div class="w-16 h-16 rounded-full bg-gradient-to-br from-orange-400 to-red-500 flex items-center justify-center mb-6 shadow-lg shadow-orange-500/30">
+                            <i class="fas fa-trophy text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-white mb-2">Hackathon Participant</h3>
+                        <span class="text-orange-400 text-sm font-semibold mb-4">Innovative Solutions</span>
+                        <p class="text-gray-400 mb-6">
+                            Participated in a competitive tech hackathon, collaborating to solve real-world problems under tight deadlines.
+                        </p>
+                        <span class="px-4 py-1 border border-orange-500 text-orange-400 rounded-full text-xs">Teamwork</span>
+                    </div>
+                </div>
+
+                <!-- Certificate Card -->
+                <div class="glass p-1 rounded-2xl w-full md:w-1/3 reveal">
+                     <div class="bg-dark/80 p-8 rounded-2xl h-full flex flex-col items-center text-center hover:bg-dark/60 transition">
+                        <div class="w-16 h-16 rounded-full bg-gradient-to-br from-blue-400 to-indigo-500 flex items-center justify-center mb-6 shadow-lg shadow-blue-500/30">
+                            <i class="fas fa-certificate text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-white mb-2">Python Certified</h3>
+                        <span class="text-blue-400 text-sm font-semibold mb-4">Professional Course</span>
+                        <p class="text-gray-400 mb-6">
+                            Completed a comprehensive certificate course in Python Programming, mastering core concepts and data structures.
+                        </p>
+                         <span class="px-4 py-1 border border-blue-500 text-blue-400 rounded-full text-xs">Certified</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 relative overflow-hidden">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="glass p-8 md:p-12 rounded-3xl reveal">
+                <div class="text-center mb-10">
+                    <h2 class="text-3xl font-bold mb-4">Let's <span class="bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">Connect</span></h2>
+                    <p class="text-gray-400">Have a project in mind or just want to say hi? I'd love to hear from you.</p>
+                </div>
+
+                <form class="space-y-6" onsubmit="event.preventDefault(); alert('Thanks for messaging! (This is a demo form)');">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-400 mb-2">Name</label>
+                            <input type="text" class="w-full bg-dark/50 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary transition" placeholder="Your Name">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-400 mb-2">Email</label>
+                            <input type="email" class="w-full bg-dark/50 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary transition" placeholder="your@email.com">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-400 mb-2">Message</label>
+                        <textarea rows="4" class="w-full bg-dark/50 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary transition" placeholder="Tell me about your project..."></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="bg-gradient-to-r from-primary to-secondary text-white px-10 py-3 rounded-full font-bold hover:shadow-[0_0_20px_rgba(192,38,211,0.5)] transition transform hover:-translate-y-1">
+                            Send Message
+                        </button>
+                    </div>
+                </form>
+
+                <div class="mt-12 border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
+                    <p>&copy; 2023 Ruchita Singh. All rights reserved.</p>
+                    <div class="flex space-x-6 mt-4 md:mt-0">
+                        <a href="#" class="hover:text-primary transition">Email</a>
+                        <a href="#" class="hover:text-primary transition">LinkedIn</a>
+                        <a href="#" class="hover:text-primary transition">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript for Interactivity -->
+<script src="script.js"></script>
+</script>
+</body>
+</html>
